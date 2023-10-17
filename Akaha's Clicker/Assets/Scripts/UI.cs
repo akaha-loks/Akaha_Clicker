@@ -9,6 +9,10 @@ public class UI : MonoBehaviour
     {
         SceneManager.LoadScene(scenes);
     }
+    public void Resset()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     public void QuitGame()
     {
         Application.Quit();
