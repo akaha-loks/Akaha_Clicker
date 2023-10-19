@@ -695,6 +695,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   improvses: c800000090010000bc020000e8030000
+  improvesess: c800000090010000bc020000e8030000
+  texts:
+  - {fileID: 900235372031764836}
+  - {fileID: 2020349628}
+  - {fileID: 537514907}
+  - {fileID: 525203015}
   GetMoney: {fileID: 1940909049}
 --- !u!1 &285594132
 GameObject:
@@ -1697,7 +1703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C + 4\n$1000"
+  m_Text: 
 --- !u!222 &525203016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1777,7 +1783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C + 3\n$700"
+  m_Text: 
 --- !u!222 &537514908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3325,6 +3331,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoClick: e8030000d007000088130000401f0000
+  autoClicks: e8030000d007000088130000401f0000
+  texts:
+  - {fileID: 677494103}
+  - {fileID: 2139397266}
+  - {fileID: 375219864}
+  - {fileID: 1780877181}
 --- !u!1 &1293689926
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,7 +4921,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C + 2\n$400"
+  m_Text: 
 --- !u!222 &2020349629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5503,7 +5515,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C + 1\n$200"
+  m_Text: 
 --- !u!114 &1485664585351320902
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class Investing : MonoBehaviour
     private int moneys;
     private int investing;
 
-    private void Update()
+    private void FixedUpdate()
     {
         moneys = PlayerPrefs.GetInt("moneys");
     }
@@ -18,15 +18,15 @@ public class Investing : MonoBehaviour
         if (PlayerPrefs.GetInt("moneys") >= invest[0])
         {
             result = Random.Range(0, 100);
-            investing = Random.Range(1, 2) * moneys;
+            investing = Random.Range(0, 200);
             if (result >= 90)
             {
-                moneys *= 2;
+                moneys += moneys;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
             if (result < 90)
             {
-                moneys -= invest[0] + investing;
+                moneys -= moneys + invest[0] + investing;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
         }
@@ -36,15 +36,15 @@ public class Investing : MonoBehaviour
         if (PlayerPrefs.GetInt("moneys") >= invest[1])
         {
             result = Random.Range(0, 100);
-            investing = Random.Range(1, 2) * moneys;
+            investing = Random.Range(0, 500);
             if (result >= 70)
             {
-                moneys *= 2;
+                moneys += moneys;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
             if (result < 70)
             {
-                moneys -= invest[1] + investing;
+                moneys -= moneys + invest[1] + investing;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
         }
@@ -54,15 +54,15 @@ public class Investing : MonoBehaviour
         if (PlayerPrefs.GetInt("moneys") >= invest[2])
         {
             result = Random.Range(0, 100);
-            investing = Random.Range(1, 2) * moneys;
+            investing = Random.Range(0, 800);
             if (result >= 50)
             {
-                moneys *= 2;
+                moneys += moneys;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
             if (result < 50)
             {
-                moneys -= invest[2] + investing;
+                moneys -= moneys + invest[2] + investing;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
         }
@@ -72,15 +72,15 @@ public class Investing : MonoBehaviour
         if (PlayerPrefs.GetInt("moneys") >= invest[3])
         {
             result = Random.Range(0, 100);
-            investing = Random.Range(1, 2) * moneys;
+            investing = Random.Range(0, 1500);
             if (result >= 30)
             {
-                moneys *= 2;
+                moneys += moneys;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
             if (result < 30)
             {
-                moneys -= invest[3] + investing;
+                moneys -= moneys + invest[3] + investing;
                 PlayerPrefs.SetInt("moneys", 0 + moneys);
             }
         }

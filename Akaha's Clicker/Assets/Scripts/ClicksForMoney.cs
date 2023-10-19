@@ -21,12 +21,15 @@ public class ClicksForMoney : MonoBehaviour
     }
     private void Update()
     {
-        getMoney = PlayerPrefs.GetInt("getMoney");
         moneys = PlayerPrefs.GetInt("moneys");
         txt.text = "" + moneys;
+    }
+    private void FixedUpdate()
+    {
+        getMoney = PlayerPrefs.GetInt("getMoney");
         clickAuto = PlayerPrefs.GetInt("aC");
         getAutoClick += 1;
-        if (getAutoClick >= 50)
+        if (getAutoClick >= 20)
         {
             moneys += clickAuto;
             getAutoClick = 0;
