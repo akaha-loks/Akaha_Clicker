@@ -12,6 +12,7 @@ public class UI : MonoBehaviour
     public void Resset()
     {
         PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(0);
     }
     public void QuitGame()
     {

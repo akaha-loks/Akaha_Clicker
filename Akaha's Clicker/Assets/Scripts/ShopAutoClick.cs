@@ -54,13 +54,13 @@ public class ShopAutoClick : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("aC", 0 + autoClicking);
             
-            autoClick[0] = PlayerPrefs.GetInt("aCShop");           
+            autoClicks[0] = PlayerPrefs.GetInt("aCShop");           
             PlayerPrefs.SetInt("aCShop", autoClicks[0] + autoClick[0]);
-            autoClick[1] = PlayerPrefs.GetInt("aCShop1");
+            autoClicks[1] = PlayerPrefs.GetInt("aCShop1");
             PlayerPrefs.SetInt("aCShop1", autoClicks[1] + autoClick[1]);
-            autoClick[2] = PlayerPrefs.GetInt("aCShop2");
+            autoClicks[2] = PlayerPrefs.GetInt("aCShop2");
             PlayerPrefs.SetInt("aCShop2", autoClicks[2] + autoClick[2]);
-            autoClick[3] = PlayerPrefs.GetInt("aCShop3");
+            autoClicks[3] = PlayerPrefs.GetInt("aCShop3");
             PlayerPrefs.SetInt("aCShop3", autoClicks[3] + autoClick[3]);
         }
     }
@@ -73,13 +73,13 @@ public class ShopAutoClick : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("aC", 0 + autoClicking);
 
-            autoClick[1] = PlayerPrefs.GetInt("aCShop1");
+            autoClicks[1] = PlayerPrefs.GetInt("aCShop1");
             PlayerPrefs.SetInt("aCShop1", autoClicks[1] + autoClick[1]);
-            autoClick[0] = PlayerPrefs.GetInt("aCShop");
+            autoClicks[0] = PlayerPrefs.GetInt("aCShop");
             PlayerPrefs.SetInt("aCShop", autoClicks[0] + autoClick[0]);
-            autoClick[2] = PlayerPrefs.GetInt("aCShop2");
+            autoClicks[2] = PlayerPrefs.GetInt("aCShop2");
             PlayerPrefs.SetInt("aCShop2", autoClicks[2] + autoClick[2]);
-            autoClick[3] = PlayerPrefs.GetInt("aCShop3");
+            autoClicks[3] = PlayerPrefs.GetInt("aCShop3");
             PlayerPrefs.SetInt("aCShop3", autoClicks[3] + autoClick[3]);
         }
     }
@@ -92,13 +92,13 @@ public class ShopAutoClick : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("aC", 0 + autoClicking);
 
-            autoClick[2] = PlayerPrefs.GetInt("aCShop2");
+            autoClicks[2] = PlayerPrefs.GetInt("aCShop2");
             PlayerPrefs.SetInt("aCShop2", autoClicks[2] + autoClick[2]);
-            autoClick[0] = PlayerPrefs.GetInt("aCShop");
+            autoClicks[0] = PlayerPrefs.GetInt("aCShop");
             PlayerPrefs.SetInt("aCShop", autoClicks[0] + autoClick[0]);
-            autoClick[1] = PlayerPrefs.GetInt("aCShop1");
+            autoClicks[1] = PlayerPrefs.GetInt("aCShop1");
             PlayerPrefs.SetInt("aCShop1", autoClicks[1] + autoClick[1]);
-            autoClick[3] = PlayerPrefs.GetInt("aCShop3");
+            autoClicks[3] = PlayerPrefs.GetInt("aCShop3");
             PlayerPrefs.SetInt("aCShop3", autoClicks[3] + autoClick[3]);
         }
     }
@@ -111,13 +111,13 @@ public class ShopAutoClick : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("aC", 0 + autoClicking);
 
-            autoClick[3] = PlayerPrefs.GetInt("aCShop3");
+            autoClicks[3] = PlayerPrefs.GetInt("aCShop3");
             PlayerPrefs.SetInt("aCShop3", autoClicks[3] + autoClick[3]);
-            autoClick[0] = PlayerPrefs.GetInt("aCShop");
+            autoClicks[0] = PlayerPrefs.GetInt("aCShop");
             PlayerPrefs.SetInt("aCShop", autoClicks[0] + autoClick[0]);
-            autoClick[1] = PlayerPrefs.GetInt("aCShop1");
+            autoClicks[1] = PlayerPrefs.GetInt("aCShop1");
             PlayerPrefs.SetInt("aCShop1", autoClicks[1] + autoClick[1]);
-            autoClick[2] = PlayerPrefs.GetInt("aCShop2");
+            autoClicks[2] = PlayerPrefs.GetInt("aCShop2");
             PlayerPrefs.SetInt("aCShop2", autoClicks[2] + autoClick[2]);
         }
     }

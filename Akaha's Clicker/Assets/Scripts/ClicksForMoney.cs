@@ -19,17 +19,14 @@ public class ClicksForMoney : MonoBehaviour
         }
         txt = GetComponent<Text>();
     }
-    private void Update()
-    {
-        moneys = PlayerPrefs.GetInt("moneys");
-        txt.text = "" + moneys;
-    }
     private void FixedUpdate()
     {
         getMoney = PlayerPrefs.GetInt("getMoney");
         clickAuto = PlayerPrefs.GetInt("aC");
+        moneys = PlayerPrefs.GetInt("moneys");
+        txt.text = "" + moneys;
         getAutoClick += 1;
-        if (getAutoClick >= 20)
+        if (getAutoClick >= 30)
         {
             moneys += clickAuto;
             getAutoClick = 0;

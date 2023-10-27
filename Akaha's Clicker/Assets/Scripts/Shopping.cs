@@ -55,13 +55,13 @@ public class Shopping : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("getMoney", 0 + GetMoney.getMoney);
 
-            improvses[0] = PlayerPrefs.GetInt("imprShop");
+            improvesess[0] = PlayerPrefs.GetInt("imprShop");
             PlayerPrefs.SetInt("imprShop", improvesess[0] + improvses[0]);
-            improvses[1] = PlayerPrefs.GetInt("imprShop1");
+            improvesess[1] = PlayerPrefs.GetInt("imprShop1");
             PlayerPrefs.SetInt("imprShop1", improvesess[1] + improvses[1]);
-            improvses[2] = PlayerPrefs.GetInt("imprShop2");
+            improvesess[2] = PlayerPrefs.GetInt("imprShop2");
             PlayerPrefs.SetInt("imprShop2", improvesess[2] + improvses[2]);
-            improvses[3] = PlayerPrefs.GetInt("imprShop3");
+            improvesess[3] = PlayerPrefs.GetInt("imprShop3");
             PlayerPrefs.SetInt("imprShop3", improvesess[3] + improvses[3]);
         }
     }
@@ -74,13 +74,13 @@ public class Shopping : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("getMoney", 0 + GetMoney.getMoney);
 
-            improvses[1] = PlayerPrefs.GetInt("imprShop1");
+            improvesess[1] = PlayerPrefs.GetInt("imprShop1");
             PlayerPrefs.SetInt("imprShop1", improvesess[1] + improvses[1]);
-            improvses[0] = PlayerPrefs.GetInt("imprShop");
+            improvesess[0] = PlayerPrefs.GetInt("imprShop");
             PlayerPrefs.SetInt("imprShop", improvesess[0] + improvses[0]);
-            improvses[2] = PlayerPrefs.GetInt("imprShop2");
+            improvesess[2] = PlayerPrefs.GetInt("imprShop2");
             PlayerPrefs.SetInt("imprShop2", improvesess[2] + improvses[2]);
-            improvses[3] = PlayerPrefs.GetInt("imprShop3");
+            improvesess[3] = PlayerPrefs.GetInt("imprShop3");
             PlayerPrefs.SetInt("imprShop3", improvesess[3] + improvses[3]);
         }
     }
@@ -93,13 +93,13 @@ public class Shopping : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("getMoney", 0 + GetMoney.getMoney);
 
-            improvses[2] = PlayerPrefs.GetInt("imprShop2");
+            improvesess[2] = PlayerPrefs.GetInt("imprShop2");
             PlayerPrefs.SetInt("imprShop2", improvesess[2] + improvses[2]);
-            improvses[0] = PlayerPrefs.GetInt("imprShop");
+            improvesess[0] = PlayerPrefs.GetInt("imprShop");
             PlayerPrefs.SetInt("imprShop", improvesess[0] + improvses[0]);
-            improvses[1] = PlayerPrefs.GetInt("imprShop1");
+            improvesess[1] = PlayerPrefs.GetInt("imprShop1");
             PlayerPrefs.SetInt("imprShop1", improvesess[1] + improvses[1]);
-            improvses[3] = PlayerPrefs.GetInt("imprShop3");
+            improvesess[3] = PlayerPrefs.GetInt("imprShop3");
             PlayerPrefs.SetInt("imprShop3", improvesess[3] + improvses[3]);
         }
     }
@@ -112,13 +112,13 @@ public class Shopping : MonoBehaviour
             PlayerPrefs.SetInt("moneys", 0 + moneys);
             PlayerPrefs.SetInt("getMoney", 0 + GetMoney.getMoney);
 
-            improvses[3] = PlayerPrefs.GetInt("imprShop3");
+            improvesess[3] = PlayerPrefs.GetInt("imprShop3");
             PlayerPrefs.SetInt("imprShop3", improvesess[3] + improvses[3]);
-            improvses[0] = PlayerPrefs.GetInt("imprShop");
+            improvesess[0] = PlayerPrefs.GetInt("imprShop");
             PlayerPrefs.SetInt("imprShop", improvesess[0] + improvses[0]);
-            improvses[1] = PlayerPrefs.GetInt("imprShop1");
+            improvesess[1] = PlayerPrefs.GetInt("imprShop1");
             PlayerPrefs.SetInt("imprShop1", improvesess[1] + improvses[1]);
-            improvses[2] = PlayerPrefs.GetInt("imprShop2");
+            improvesess[2] = PlayerPrefs.GetInt("imprShop2");
             PlayerPrefs.SetInt("imprShop2", improvesess[2] + improvses[2]);
         }
     }
